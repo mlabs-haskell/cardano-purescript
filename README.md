@@ -1,6 +1,6 @@
 # cardano-purescript
 
-This is an overview of open source PureScript (and JavaScript) packages that facilitate Cardano dApp development
+This is an overview of open source PureScript (and JavaScript) packages that facilitate Cardano dApp development.
 
 - [cardano-transaction-lib](https://github.com/Plutonomicon/cardano-transaction-lib/pulls) -  A Purescript framework for building smart contract transactions on Cardano
 - [purescript-cip30-typesafe](https://github.com/mlabs-haskell/purescript-cip30-typesafe) - safe error handling for CIP-30 wrappers
@@ -15,6 +15,8 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 
 
 ## Work in progress
+
+These packages haven't been fully finalized:
 
 - [purescript-cardano-types](https://github.com/mlabs-haskell/purescript-cardano-types) - domain types for Cardano
 - [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL
