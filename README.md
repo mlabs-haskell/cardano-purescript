@@ -7,7 +7,7 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 - [purescript-cip30](https://github.com/mlabs-haskell/purescript-cip30) - CIP-30 API wrappers (no error handling)
 - [purescript-cardano-message-signing](https://github.com/mlabs-haskell/purescript-cardano-message-signing) - implementation of CIP-8/CIP-30 `signData`, purescript wrapper over [`Emurgo/message-signing`](https://github.com/emurgo/message-signing)
 - [purescript-noble-secp256k1](https://github.com/mlabs-haskell/purescript-noble-secp256k1/) - cryptographic functions needed to work with Vasil hardfork features
-- [purescript-aeson](https://github.com/mlabs-haskell/purescript-aeson/) - partial re-implementation of Argonaut with support of unquoted long integers - can be used for interoperability with Aeson, that encodes long integers unquoted.
+- [purescript-aeson](https://github.com/mlabs-haskell/purescript-aeson/) - partial re-implementation of Argonaut with support of unquoted long integers - can be used for interoperability with Aeson, that encodes long integers unquoted. We need this for interactions with Cardano tooling in Haskell
   - [json-bigint](https://github.com/mlabs-haskell/json-bigint) - big integer machinery (JavaScript)
 - [purescript-bytearrays](https://github.com/mlabs-haskell/purescript-bytearrays) - byte string type and utilities
 - [cardano-serialization-lib-gc](https://github.com/mlabs-haskell/cardano-serialization-lib-gc) - CSL version vendored by MLabs, with automatic GC added
