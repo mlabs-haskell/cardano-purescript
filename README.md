@@ -13,6 +13,7 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 - [purescript-aeson](https://github.com/mlabs-haskell/purescript-aeson/) - partial re-implementation of Argonaut with support of unquoted long integers - can be used for interoperability with Aeson, that encodes long integers unquoted. We need this for interactions with Cardano tooling in Haskell
   - [json-bigint](https://github.com/mlabs-haskell/json-bigint) - big integer machinery (JavaScript)
 - [purescript-bytearrays](https://github.com/mlabs-haskell/purescript-bytearrays) - byte string type and utilities
+- [purescript-mote-testplan](https://github.com/mlabs-haskell/purescript-mote-testplan) - effectful testplans for [Mote](https://github.com/garyb/purescript-mote), a testing library
 
 ## JavaScript packages
 
