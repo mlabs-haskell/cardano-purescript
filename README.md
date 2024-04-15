@@ -25,7 +25,8 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 
 These packages haven't been fully finalized:
 
-- [purescript-cardano-types](https://github.com/mlabs-haskell/purescript-cardano-types) - domain types for Cardano
-- [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL
+- [purescript-cardano-types](https://github.com/mlabs-haskell/purescript-cardano-types) - domain types for Cardano ledger, wraps `purescript-cardano-serialization-lib`.
+- [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL.
+- [purescript-plutus-types](https://github.com/mlabs-haskell/purescript-plutus-types) - Plutus-style types used for their PlutusData instances.
 - [purescript-cardano-plutus-data-schema](https://github.com/mlabs-haskell/purescript-cardano-plutus-data-schema) - machinery for specifying PlutusDataSchema (PlutusData encoding layouts for PureScript algebraic data types) in CTL
 - [purus](https://github.com/mlabs-haskell/purus) - A fork of the PureScript compiler that compiles to Untyped Plutus Core - smart contract language of Cardano
