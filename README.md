@@ -29,4 +29,5 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 
 These packages haven't been fully finalized:
 
+- [purescript-cardano-transaction-builder](https://github.com/mlabs-haskell/purescript-cardano-transaction-builder) - Declarative transaction builder API & utility functions for automatic redeemer indexing
 - [purus](https://github.com/mlabs-haskell/purus) - A fork of the PureScript compiler that compiles to Untyped Plutus Core - smart contract language of Cardano
