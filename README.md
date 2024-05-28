@@ -1,10 +1,10 @@
-# cardano-purescript
+# cardano-purescript [![cardano-purescript](https://img.shields.io/badge/cardano--purescript?logo=cardano&logoColor=white&label=cardano-purescript&labelColor=blue&color=blue)](https://github.com/klntsky/cardano-purescript)
 
 This is an overview of open source PureScript (and JavaScript) packages that facilitate Cardano dApp development.
 
 ## PureScript packages
 
-- [cardano-transaction-lib](https://github.com/Plutonomicon/cardano-transaction-lib/pulls) -  A Purescript framework for building smart contract transactions on Cardano
+- [cardano-transaction-lib](https://github.com/Plutonomicon/cardano-transaction-lib) -  A Purescript framework for building smart contract transactions on Cardano
 - [purescript-cardano-types](https://github.com/mlabs-haskell/purescript-cardano-types) - domain types for Cardano ledger, wraps `purescript-cardano-serialization-lib`.
 - [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL.
 - [purescript-plutus-types](https://github.com/mlabs-haskell/purescript-plutus-types) - Plutus-style types used for their PlutusData instances.
