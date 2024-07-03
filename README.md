@@ -9,6 +9,7 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 - [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL.
 - [purescript-plutus-types](https://github.com/mlabs-haskell/purescript-plutus-types) - Plutus-style types used for their PlutusData instances.
 - [purescript-cardano-plutus-data-schema](https://github.com/mlabs-haskell/purescript-cardano-plutus-data-schema) - machinery for specifying PlutusDataSchema (PlutusData encoding layouts for PureScript algebraic data types) in CTL
+- [purescript-uplc-apply-args](https://github.com/mlabs-haskell/purescript-uplc-apply-args) - apply `PlutusData`-encoded parameters to parametrized Plutus scripts
 - [purescript-cip30-typesafe](https://github.com/mlabs-haskell/purescript-cip30-typesafe) - safe error handling for CIP-30 wrappers
   - [purescript-cip30](https://github.com/mlabs-haskell/purescript-cip30) - CIP-30 API wrappers (no error handling)
 - [purescript-cardano-message-signing](https://github.com/mlabs-haskell/purescript-cardano-message-signing) - implementation of CIP-8/CIP-30 `signData`, purescript wrapper over [`Emurgo/message-signing`](https://github.com/emurgo/message-signing)
