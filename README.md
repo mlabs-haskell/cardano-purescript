@@ -23,9 +23,9 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 
 ## JavaScript packages
 
-- [cardano-serialization-lib-gc](https://github.com/mlabs-haskell/cardano-serialization-lib-gc) - CSL version vendored by MLabs, with automatic GC added
-  - [csl-gc-wrapper](https://github.com/mlabs-haskell/csl-gc-wrapper) - Garbage collector for CSL
-- [uplc-apply-args](https://github.com/mlabs-haskell/uplc-apply-args) - JavaScript package for Plutus script parameter application
+- [@mlabs-haskell/cardano-serialization-lib-gc](https://github.com/mlabs-haskell/cardano-serialization-lib-gc) - CSL version vendored by MLabs, with automatic GC added
+  - [@mlabs-haskell/csl-gc-wrapper](https://github.com/mlabs-haskell/csl-gc-wrapper) - Garbage collector for CSL
+- [@mlabs-haskell/uplc-apply-args](https://github.com/mlabs-haskell/uplc-apply-args) - JavaScript package for Plutus script parameter application
 
 ## Work in progress
 
