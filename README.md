@@ -4,15 +4,17 @@ This is an overview of open source PureScript (and JavaScript) packages that fac
 
 ## PureScript packages
 
-- [cardano-transaction-lib](https://github.com/Plutonomicon/cardano-transaction-lib) -  A Purescript framework for building smart contract transactions on Cardano
+- [cardano-transaction-lib](https://github.com/Plutonomicon/cardano-transaction-lib) -  A Purescript framework for building smart contract transactions on Cardano, known as "CTL"
 - [purescript-cardano-types](https://github.com/mlabs-haskell/purescript-cardano-types) - domain types for Cardano ledger, wraps `purescript-cardano-serialization-lib`.
-- [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL.
+- [purescript-cardano-serialization-lib](https://github.com/mlabs-haskell/purescript-cardano-serialization-lib) - PureScript wrapper for CSL ([MLabs-vendored version](https://www.npmjs.com/package/@mlabs-haskell/cardano-serialization-lib-gc)).
 - [purescript-plutus-types](https://github.com/mlabs-haskell/purescript-plutus-types) - Plutus-style types used for their PlutusData instances.
 - [purescript-cardano-plutus-data-schema](https://github.com/mlabs-haskell/purescript-cardano-plutus-data-schema) - machinery for specifying PlutusDataSchema (PlutusData encoding layouts for PureScript algebraic data types) in CTL
 - [purescript-cardano-collateral-select](https://github.com/mlabs-haskell/purescript-cardano-collateral-select/) - collateral selection algorithm that tries to minimize min-ADA value
 - [purescript-uplc-apply-args](https://github.com/mlabs-haskell/purescript-uplc-apply-args) - apply `PlutusData`-encoded parameters to parametrized Plutus scripts
+- [purescript-cardano-key-wallet](https://github.com/mlabs-haskell/purescript-cardano-key-wallet) - an interface that exposes functionality of a private key. Used in CTL as one of the ways to sign transactions. Can be implemented via HTTP for remote signing.
 - [purescript-cip30-typesafe](https://github.com/mlabs-haskell/purescript-cip30-typesafe) - safe error handling for CIP-30 wrappers
   - [purescript-cip30](https://github.com/mlabs-haskell/purescript-cip30) - CIP-30 API wrappers (no error handling)
+- [purescript-cip30-mock](https://github.com/mlabs-haskell/purescript-cip30-mock) - a mock implementation for the Cardano Cip30 Wallet interface that can be used for testing purposes to simulate a wallet without needing to interact with an actual browser-based wallet. It is actually a valid CIP-30 implementation.
 - [purescript-cardano-message-signing](https://github.com/mlabs-haskell/purescript-cardano-message-signing) - implementation of CIP-8/CIP-30 `signData`, purescript wrapper over [`Emurgo/message-signing`](https://github.com/emurgo/message-signing)
 - [purescript-cardano-hd-wallet](https://github.com/mlabs-haskell/purescript-cardano-hd-wallet) - implementation of [CIP-1852](https://cips.cardano.org/cip/CIP-1852) using `cardano-serialization-lib` (private key derivation from mnemonics)
 - [purescript-noble-secp256k1](https://github.com/mlabs-haskell/purescript-noble-secp256k1/) - cryptographic functions needed to work with Vasil hardfork features
